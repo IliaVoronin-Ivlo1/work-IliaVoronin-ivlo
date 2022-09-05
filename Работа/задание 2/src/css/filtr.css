@@ -1,0 +1,172 @@
+body{
+    background-color: antiquewhite;
+}
+
+/*Правая сторона*/
+.filter-conteiner{
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.filter-right-side{
+    margin-top: 35px;
+    margin-right: 5px;
+    flex: 0 1 10%;
+    padding-top: 50px;
+    background-color: antiquewhite;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid rgb(184, 104, 12);
+    position: sticky;
+    align-self: flex-start;
+}
+
+.filter-right-side>nav>h2{
+    font-size: 25px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.filter-right-side>nav>h3{
+    margin-top: 16px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.filter-right-side>nav>label{
+    font-size: 20px;
+}
+
+.block-limiter{
+    margin-top: 16px ;
+    margin-left: 40px;
+}
+
+.brand>.block-limiter:last-child{
+    margin-bottom: 16px;
+}
+
+.phone-tipe>.block-limiter:last-child{
+    margin-bottom: 16px;
+}
+
+.phone-color>.block-limiter:last-child{
+    margin-bottom: 16px;
+}
+
+.display-size>.block-limiter:last-child{
+    margin-bottom: 16px;
+}
+
+/*Левая сторона*/
+
+.filter-left-side{
+    flex: 0 1 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    margin: 15px;
+}
+
+.phone-container{
+    flex: 0 1 30%;
+    height: 600px;
+    border: 2px solid rgb(184, 104, 12);
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.phone-container>.img-continer{
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 0px auto;
+}
+
+.phone-container:nth-child(6)>.img-continer{
+     margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(7)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(8)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(9)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(10)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(11)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(12)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(13)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(14)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(15)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(16)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(17)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(18)>.img-continer{
+    margin: 10px 100px auto;
+}
+
+.phone-container:nth-child(19)>.img-continer{
+    margin: 10px 110px auto;
+}
+
+.phone-container:nth-child(20)>.img-continer{
+    margin: 10px 110px auto;
+}
+
+.phone-information>p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    color: rgb(114, 64, 7);
+}
+
+input{
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
